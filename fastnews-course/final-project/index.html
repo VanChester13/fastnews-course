@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FastNews</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- Основной контейнер -->
+    <div class="page">
+      <!-- Шапка сайта -->
+      <header class="header">
+        <!-- Логотип и название сайта -->
+        <a class="logo" href="index.html">
+          <img src="images/logo.png" alt="Логотип FastNews" />
+          <h1>FastNews</h1>
+        </a>
+
+        <!-- Навигация -->
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Все</a></li>
+            <li><a href="space.html">Космос</a></li>
+            <li><a href="technology.html">Технологии</a></li>
+            <li><a href="cinema.html">Кино</a></li>
+          </ul>
+        </nav>
+
+        <!-- Иконка входа в профиль -->
+        <a class="profile" href="#">
+          <img src="images/profile.png" alt="Профиль" />
+        </a>
+      </header>
+
+      <!-- Основная сетка: новости + популярное -->
+      <main class="layout">
+        <!-- Лента новостей -->
+        <section class="news">
+          <!-- Новость -->
+          <article class="card" id="news-1">
+            <p class="tag">Космос</p>
+
+            <h2>SpaceX готовит запуск новой ракеты</h2>
+
+            <div class="photo">
+              <img src="images/spacex.png" alt="Ракета SpaceX" />
+            </div>
+
+            <p class="description">
+              Рассказываем, что известно о подготовке и целях миссии.
+            </p>
+
+            <p class="meta">
+              <time datetime="2026-01-01">1 января 2026 года</time>
+              <span>👁 125 000</span>
+            </p>
+          </article>
+
+          <!-- Новость -->
+          <article class="card" id="news-2">
+            <p class="tag">Технологии</p>
+
+            <h2>Оперативная память дорожает</h2>
+
+            <div class="photo">
+              <img src="images/ram.jpg" alt="Оперативная память DDR5" />
+            </div>
+
+            <p class="description">
+              Из-за дефицита поставок цены все больше растут, а популярные
+              модули быстро исчезают со складов.
+            </p>
+
+            <p class="meta">
+              <time datetime="2026-01-02">2 января 2026 года</time>
+              <span>👁 53 000</span>
+            </p>
+          </article>
+
+          <!-- Новость -->
+          <article class="card" id="news-3">
+            <p class="tag">Кино</p>
+
+            <h2>Вышел новый трейлер третьей части "Дюны"</h2>
+
+            <div class="photo">
+              <img src="images/dune-3.jpg" alt="Кадр из фильма Дюна 3" />
+            </div>
+
+            <p class="description">
+              Зрители обсуждают масштабные сцены, визуальные эффекты и
+              продолжение истории.
+            </p>
+
+            <p class="meta">
+              <time datetime="2026-01-03">3 января 2026 года</time>
+              <span>👁 110 500</span>
+            </p>
+          </article>
+        </section>
+
+        <!-- Популярное -->
+        <aside class="popular">
+          <h2>Популярное</h2>
+          <ol>
+            <li><a href="#news-1">SpaceX готовит запуск новой ракеты</a></li>
+            <li>
+              <a href="#news-3">Вышел новый трейлер третьей части "Дюны"</a>
+            </li>
+          </ol>
+        </aside>
+      </main>
+
+      <!-- Подвал сайта -->
+      <footer class="footer">
+        <p>© FastNews, 2026</p>
+      </footer>
+    </div>
+  </body>
+</html>
