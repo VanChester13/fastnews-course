@@ -24,6 +24,7 @@ project/
     ├── spacex.png
     ├── ram.jpg
     └── dune-3.jpg
+```
 
 ## Как использовать финальный проект
 
@@ -41,3 +42,9 @@ project/
 ├── cinema.html
 ├── index.css
 └── images/
+    ├── logo.png
+    ├── profile.png
+    ├── spacex.png
+    ├── ram.jpg
+    └── dune-3.jpg
+```
